@@ -12,7 +12,6 @@ module.exports = {
     '<rootDir>/node_modules/',
     '<rootDir>/.next/'
   ],
-  collectCoverage: true,
   coverageDirectory: 'coverage',
   setupFilesAfterEnv: [
     '<rootDir>/src/test/setup.ts'
