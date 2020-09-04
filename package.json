@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint 'src/**' --max-warnings=0",
     "test": "jest --passWithNoTests --runInBand",
+    "test:staged": "npm test -- --findRelatedTests --bail",
     "test:watch": "npm run test -- --watch"
   },
   "dependencies": {
