@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Index: React.FC = () => {
+import Main from '@/components/Main'
+
+const Home: React.FC = () => {
   return (
-    <div>
-      Won Games
-    </div>
+    <Main />
   )
 }
 
-export default Index
+export default Home
