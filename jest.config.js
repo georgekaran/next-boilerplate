@@ -1,4 +1,6 @@
 module.exports = {
+  preset: 'ts-jest',
+  testEnvironment: 'jsdom',
   roots: [
     '<rootDir>/src'
   ],
@@ -10,14 +12,11 @@ module.exports = {
     '<rootDir>/node_modules/',
     '<rootDir>/.next/'
   ],
+  collectCoverage: true,
   coverageDirectory: 'coverage',
   setupFilesAfterEnv: [
     '<rootDir>/src/test/setup.ts'
   ],
-  testEnvironment: 'jsdom',
-  transform: {
-    '.+\\.(ts|tsx)$': 'ts-jest'
-  },
   moduleNameMapper: {
     '@/(.*)': '<rootDir>/src/$1'
   }
