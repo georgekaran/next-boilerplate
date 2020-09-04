@@ -8,6 +8,8 @@ function App ({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Won Games - Boilerplate</title>
+        <link rel="shortcut icon" href="/img/icon-512.png" />
+        <link rel="apple-touch-icon" href="/img/icon-512.png" />
         <meta name="description" content="A simple boilerplate to work with Typescript, React, NextJs and Styled Components" />
       </Head>
       <GlobalStyles />
