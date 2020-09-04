@@ -6,6 +6,6 @@ import Main from './index'
 describe('Main component', () => {
   test('Should render with no error', () => {
     render(<Main />)
-    expect(screen.getByTestId('main')).toHaveTextContent('Won-Games')
+    expect(screen.getByTestId('title')).toHaveTextContent('Won-Games')
   })
 })
