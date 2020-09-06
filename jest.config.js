@@ -6,7 +6,8 @@ module.exports = {
   ],
   collectCoverageFrom: [
     '<rootDir>/src/**/*.{ts,tsx}',
-    '!**/*.d.ts'
+    '!**/*.d.ts',
+    '!<rootDir>/src/**/*.stories.tsx'
   ],
   testPathIgnorePatterns: [
     '<rootDir>/node_modules/',
