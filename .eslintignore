@@ -5,5 +5,6 @@ public
 *.json
 dist
 .next
-.svg
-.css
+*.svg
+*.css
+*.mdx
