@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Main component Should match snapshot 1`] = `
+exports['Main component Should match snapshot 1'] = `
 .c0 {
   background-color: #06092b;
   color: #fff;
@@ -85,4 +85,4 @@ exports[`Main component Should match snapshot 1`] = `
     src="/img/hero-illustration.svg"
   />
 </main>
-`;
+`
