@@ -1,7 +1,7 @@
 import React from 'react'
 import { render, screen, RenderResult } from '@testing-library/react'
 
-import Main from './index'
+import Main from './Main'
 
 const makeSut = (): RenderResult => {
   return render(<Main />)
