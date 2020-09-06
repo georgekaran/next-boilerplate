@@ -71,7 +71,7 @@ exports['Main component Should match snapshot 1'] = `
       class="c3"
       data-testid="title"
     >
-      Won-Games
+      Next-Boilerplate
     </h1>
   </div>
   <h2

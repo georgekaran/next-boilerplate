@@ -10,7 +10,7 @@ const makeSut = (): RenderResult => {
 describe('Main component', () => {
   test('Should render with no error', () => {
     makeSut()
-    expect(screen.getByTestId('title')).toHaveTextContent('Won-Games')
+    expect(screen.getByTestId('title')).toHaveTextContent('Next-Boilerplate')
   })
 
   test('Should match snapshot', () => {

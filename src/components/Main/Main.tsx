@@ -6,7 +6,7 @@ type Props = {
 }
 
 const Main: React.FC<Props> = ({
-  title = 'Won-Games'
+  title = 'Next-Boilerplate'
 }: Props) => {
   return (
     <S.Wrapper>
