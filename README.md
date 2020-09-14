@@ -1,30 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img src="./docs/images/next-boilerplate-logo.svg"
+       alt="Cauldron with a text Next Boiletplate on the right side" >
+  <br/>
+</p> 
+
+# Next Boilerplate
+
+A simple boilerplate to work with Typescript, React, NextJs and Styled Components.
 
 ## Getting Started
 
-First, run the development server:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-```bash
-npm run dev
-# or
-yarn dev
+### Prerequisites
+
+1. NPM or YARN
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Clone the repo or "Use this template".
+```
+git clone https://github.com/georgekaran/next-boilerplate.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install the dependencies and run the app.
+```
+npm i
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Available commands
 
-## Learn More
+| Command | Description |
+|---|---|
+| ```dev```  | Start the application on **development** mode  |
+| ```build```  | Build the application  |
+| ```start```  |  Start the application on **production** mode |
+| ```lint```  | Lint the 'src' folder |
+| ```test```  |  Run all tests |
+| ```test:staged```  | Run only new/modified tests |
+| ```test:ci```  | Run tests and generate coverage report  |
+| ```test:watch```  | Run tests on watch mode  |
+| ```generate```  | Generate a new Component folder that includes styles, stories, test, and the component itself (See Main Component for an example)  |
+| ```storybook```  | Run Storybook on **development** mode  |
+| ```build-storybook```  | Build Storybook for **production**  |
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Add additional notes about how to deploy this on a live system
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Built With
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* [Next.JS](https://nextjs.org/docs) - "The React Framework
+for Production".
+* [Styled-Components](https://styled-components.com/) - "Visual primitives for the component age".
