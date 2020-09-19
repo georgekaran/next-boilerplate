@@ -4,6 +4,8 @@
   <br/>
 </p> 
 
+![ci](https://github.com/georgekaran/next-boilerplate/workflows/ci/badge.svg)
+
 # Next Boilerplate
 
 A simple boilerplate to work with Typescript, React, NextJs and Styled Components.
