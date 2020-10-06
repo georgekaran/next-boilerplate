@@ -45,7 +45,7 @@
     "eslint-plugin-standard": "^4.0.1",
     "git-commit-msg-linter": "^3.0.0",
     "husky": "^4.2.5",
-    "jest": "^26.4.2",
+    "jest": "^26.5.0",
     "jest-styled-components": "^7.0.3",
     "lint-staged": "^10.4.0",
     "plop": "^2.7.4",
